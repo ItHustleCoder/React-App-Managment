@@ -16,6 +16,7 @@
     
 }
 
+
 .input-form:hover {
     border-color: cyan;
 }
@@ -23,4 +24,9 @@
 .btn-submit {
     width: 308px;
     height: 34px;
+}
+
+.num-counter {
+    color: tomato;
+    font-weight: bold;
 }

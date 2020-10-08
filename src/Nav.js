@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './App.css';
+import { MovieContext } from './MovieContexct';
+
 
 const Nav = () => {
+    const [movies ,setMoives] = useContext(MovieContext);
     return (
-        <div className="nav-bar">
+        <nav className="nav-bar">
          <h3>Andrew Dev</h3>
-         <p>List film :</p>
-        </div>
+         <p className="num-counter">List film : {movies.length}</p>
+        </nav>
    );
 }
 

@@ -3,7 +3,7 @@ import './App.css';
 
 const Movie = ({name, price }) => {
     return (
-        <div>
+        <div className="movie-list">
          <h3>{name}</h3>
          <p>{price}</p>
         </div>
